@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="javscript">
+        javascript
+    </div>
+</body>
+<script>
+    /*
+    function addLanguage(langName){
+        const li=document.createElement('li');
+        li.innerHTML=`${langName}`
+        document.querySelector('.language').appendChild(li)
+    }
+    addLanguage("python")
+    addLanguage("typescript")
+*/
+    function addoptilang(langname){
+        const li=document.createElement('li');
+        li.appendChild(document.createTextNode(langname))  
+        document.querySelector('.language').appendChild(li)
+        }
+        addoptilang("golang")
+</script>
+</html>
